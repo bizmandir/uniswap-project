@@ -19,9 +19,9 @@ const Header = () => {
   useEffect(() => {
     setTokenBalComp(
       <>
-        <TokenBalance name={'CoinA'} walletAddress={address} />
-        <TokenBalance name={'CoinB'} walletAddress={address} />
-        <TokenBalance name={'CoinC'} walletAddress={address} />
+            <TokenBalance name={'AskTrabaajo'} walletAddress={address} />
+            <TokenBalance name={'3DOT'} walletAddress={address} />
+            <TokenBalance name={'COKU'} walletAddress={address} />
       </>,
     )
 
@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <div className='fixed left-0 top-0 w-full px-8 py-4 flex items-center justify-between'>
       <div className='flex items-center'>
-              <img src='./3dot.svg' className='h-12' />
+              <img src='./3dot.svg' className='h-13' />
         <NavItems />
       </div>
 
