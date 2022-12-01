@@ -17,7 +17,7 @@ const { chains, provider } = configureChains(
   [chain.goerli],
   [
     infuraProvider({
-      apiKey: 'f0267a8d7d5642caa8735db53507eefd',
+      apiKey: '9af1e99bbab84ec695caa7705bd8b357',
       priority: 1,
     }),
   ],
